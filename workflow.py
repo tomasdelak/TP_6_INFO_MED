@@ -31,8 +31,8 @@ search_patient_by_dni(43992337)
 # Ahora, crear un recurso MedicationStatement asociado al paciente
 med_statement = create_medication_statement(
     patient_id=patient_id,
-    medication_code="860975",  # código RxNorm de ejemplo (Paracetamol)
-    medication_display="Paracetamol 500mg tablet",
+    medication_code="322236009",  # código snomed Paracetamol
+    medication_display="Paracetamol 500mg tableta",
     status="active",
     effective_date="2024-06-01",
     note_text="Paciente refiere automedicación ocasional por dolor."
