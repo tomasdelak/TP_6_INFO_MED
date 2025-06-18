@@ -10,7 +10,7 @@ def create_medication_statement(patient_id, medication_code, medication_display,
         status=status,
         medicationCodeableConcept=CodeableConcept(
             coding=[Coding(
-                system="http://www.nlm.nih.gov/research/umls/rxnorm",
+                system="http://snomed.info/sct",
                 code=medication_code,
                 display=medication_display
             )]
